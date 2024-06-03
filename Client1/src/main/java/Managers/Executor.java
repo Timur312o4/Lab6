@@ -17,10 +17,6 @@ import City.City;
  * Класс Executor
  * @author Timur
  */
-// Наверно весь прикол лабы в том, что переделать класс Runner. По идее Сервер на прямую не должен быть связан с клиентом, как и клиент с сервером
-// Все, прикол данного класса, что у него есть interactiveMode - ввод пользователя, а также ввод с файла, то есть executeScript().
-// Отсюда будут создаваться команды, но не исполнясться, и уходить к серверу в сериализованном виде
-// В запросах я буду посылать тип команды.
 public class Executor {
     private final String[] commandHistory = new String[9];
     private boolean statusScript = false;
