@@ -7,7 +7,7 @@ import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main { //главный класс для клиента
+public class Main { 
     public static void main(String[] args){
         if (args.length != 2){
             System.out.println("Передайте хост в аргументы командной строки!");
